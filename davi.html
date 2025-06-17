@@ -5,9 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .container {
+        margin: auto;
+        height: 50vh;
+        width: 50vh;
+        background-color: blue;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        padding: 10px;
+    }
+
+    .card {
+        width: 30%;
+        height: 30%;
+        background-color: green;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 <body>
-    <div>
-        <div>A</div>
+    <div class="container">
+        <div class="card">A</div>
+        <div class="card">B</div>
+        <div class="card">C</div>
+        <div class="card">D</div>
+        <div class="card">E</div>
+        <div class="card">F</div>
     </div>
 </body>
 </html>
