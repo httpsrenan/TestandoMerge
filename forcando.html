@@ -23,5 +23,20 @@
     <div>
         <b>Teste 4</b>
     </div>
+
+    <div id="div_hello_world"></div>
 </body>
+<script>
+    window.onload = function () {
+        printarHelloWorlds()
+    }
+
+    function printarHelloWorlds(){
+        frase = ''
+        for (let i = 0; i < 22; i++){
+            frase += 'Hello world! <br>'
+        }
+        div_hello_world.innerHTML = frase
+    }
+</script>
 </html>
