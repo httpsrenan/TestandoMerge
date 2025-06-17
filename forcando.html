@@ -9,7 +9,7 @@
     Estamos Testando
 
     <div>
-       <p> teste </p> 
+       <p> corinthians </p> 
     </div>
 
     <div>
@@ -17,11 +17,26 @@
     </div>
 
     <div>
-        <u>Teste 3</u>
+        <u>Cortinas 3</u>
     </div>
 
     <div>
         <b>Teste 4</b>
     </div>
+
+    <div id="div_hello_world"></div>
 </body>
+<script>
+    window.onload = function () {
+        printarHelloWorlds()
+    }
+
+    function printarHelloWorlds(){
+        frase = ''
+        for (let i = 0; i < 22; i++){
+            frase += 'Hello world! <br>'
+        }
+        div_hello_world.innerHTML = frase
+    }
+</script>
 </html>
